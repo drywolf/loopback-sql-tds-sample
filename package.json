@@ -1,0 +1,24 @@
+{
+  "name": "loopback-sql-tds-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.5.2",
+    "errorhandler": "^1.4.2",
+    "loopback": "^2.26.2",
+    "loopback-boot": "^2.16.0",
+    "loopback-connector-mssql": "^2.3.3",
+    "loopback-datasource-juggler": "^2.44.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.8.0"
+  }
+}
